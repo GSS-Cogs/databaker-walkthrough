@@ -1,14 +1,19 @@
 
-COGS
-===========================
+# Databaker Walkthrough
 
-This git repository is intended as a central information hub for COGS team members, for more general information about the project please see the [project wiki](https://github.com/GSS-Cogs/gss-data-docs/wiki/Project-Goals).
+This git repository is intended as a introduction to the databaker tool as used by the cogs project.
 
-The following will walk you through base information and standards required for this project.
+## Running the lab
 
-*If you're new to the team, take your time and make liberal use of both the wiki and tertiary resources supplied - a stronger understanding will serve you far better than a fast one.*
+There are a series of data transformation exercises included in the `/databaker-lab/exercises` directory of this repo.
 
-### Guides
+*Assuming you have a required python setup installed* you can run the lab as follows.
 
-* [Github Collabiration]('https://github.com/GSS-Cogs/COGS/')
-* [Data Extraction With Databaker](https://github.com/GSS-Cogs/databaker-lab-exercises/README.md) (data  engineers only)
+* Open up a terminal on your MAC, then
+* `git clone https://github.com/GSS-Cogs/databaker-walkthrough`
+* `cd getting-started/databaker-lab-exercises`
+* `jupyter lab`
+
+You can then work through the notebooks in the order presented.
+
+Note - if you need to install python and it's dependencies for this project, please see the [software installation guide](https://github.com/GSS-Cogs/gss-data-docs/wiki/Software-Installation-Guide)
